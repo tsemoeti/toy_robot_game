@@ -26,7 +26,7 @@ You may use IntelliJ to run the code and tests, but alternatively you can use th
 ## How to run games
 The game is run in the world directory and the main method is in the Play class.
 * Configure the game by editing the configuration of the play method
-  * valid configurations are:
+  * valid configuration arguments are:
   * turtle
   * turtle designedmaze - cool to see
   * turtle emptymaze
