@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.co.MyTests.toyrobot.ForwardCommandTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="za.co.MyTests.toyrobot.ForwardCommandTest" time="0.042" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/home/wtc/.sdkman/candidates/java/11.0.10.hs-adpt/lib"/>
-    <property name="sun.java.command" value="/home/wtc/my_robot/toy_robot_game/target/surefire/surefirebooter12585823164090441373.jar /home/wtc/my_robot/toy_robot_game/target/surefire 2023-03-13T14-19-23_107-jvmRun1 surefire6602689410654578619tmp surefire_05563864682241748589tmp"/>
+    <property name="sun.java.command" value="/home/wtc/my_robot/toy_robot_game/target/surefire/surefirebooter18121104708337168501.jar /home/wtc/my_robot/toy_robot_game/target/surefire 2023-03-14T10-42-29_457-jvmRun1 surefire11854433015644950834tmp surefire_015115665540094512553tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/wtc/my_robot/toy_robot_game/target/test-classes:/home/wtc/my_robot/toy_robot_game/target/classes:/home/wtc/.m2/repository/org/turtle/java-turtle/1.0/java-turtle-1.0.jar:/home/wtc/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.3/junit-jupiter-engine-5.6.3.jar:/home/wtc/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/wtc/.m2/repository/org/junit/platform/junit-platform-engine/1.6.3/junit-platform-engine-1.6.3.jar:/home/wtc/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/wtc/.m2/repository/org/junit/platform/junit-platform-commons/1.6.3/junit-platform-commons-1.6.3.jar:/home/wtc/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.3/junit-jupiter-api-5.6.3.jar:/home/wtc/.m2/repository/org/junit/platform/junit-platform-launcher/1.6.3/junit-platform-launcher-1.6.3.jar:/home/wtc/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:/home/wtc/.m2/repository/org/mockito/mockito-junit-jupiter/3.6.28/mockito-junit-jupiter-3.6.28.jar:/home/wtc/.m2/repository/org/mockito/mockito-core/3.6.28/mockito-core-3.6.28.jar:/home/wtc/.m2/repository/net/bytebuddy/byte-buddy/1.10.18/byte-buddy-1.10.18.jar:/home/wtc/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.18/byte-buddy-agent-1.10.18.jar:/home/wtc/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/wtc/.m2/repository/org/hexworks/zircon/zircon.core-jvm/2020.2.0-RELEASE/zircon.core-jvm-2020.2.0-RELEASE.jar:/home/wtc/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.4.10/kotlin-reflect-1.4.10.jar:/home/wtc/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.10/kotlin-stdlib-1.4.10.jar:/home/wtc/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/wtc/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.5.4/caffeine-2.5.4.jar:/home/wtc/.m2/repository/org/yaml/snakeyaml/1.18/snakeyaml-1.18.jar:/home/wtc/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/wtc/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.10/kotlin-stdlib-jdk8-1.4.10.jar:/home/wtc/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.10/kotlin-stdlib-jdk7-1.4.10.jar:/home/wtc/.m2/repository/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.3.9/kotlinx-coroutines-core-jvm-1.3.9.jar:/home/wtc/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar:/home/wtc/.m2/repository/org/jetbrains/kotlinx/kotlinx-collections-immutable-jvm/0.3.3/kotlinx-collections-immutable-jvm-0.3.3.jar:/home/wtc/.m2/repository/org/hexworks/cobalt/cobalt.core-jvm/2020.0.19-PREVIEW/cobalt.core-jvm-2020.0.19-PREVIEW.jar:/home/wtc/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/wtc/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/wtc/.m2/repository/com/benasher44/uuid-jvm/0.2.2/uuid-jvm-0.2.2.jar:/home/wtc/.m2/repository/org/hexworks/zircon/zircon.jvm.swing/2020.2.0-RELEASE/zircon.jvm.swing-2020.2.0-RELEASE.jar:/home/wtc/.m2/repository/com/jhlabs/filters/2.0.235-1/filters-2.0.235-1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/wtc/my_robot/toy_robot_game/target/surefire/surefirebooter12585823164090441373.jar"/>
+    <property name="surefire.real.class.path" value="/home/wtc/my_robot/toy_robot_game/target/surefire/surefirebooter18121104708337168501.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.10+9"/>
     <property name="user.name" value="wtc"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testForwardCommand" classname="za.co.MyTests.toyrobot.ForwardCommandTest" time="0.037"/>
+  <testcase name="testForwardCommand" classname="za.co.MyTests.toyrobot.ForwardCommandTest" time="0.034"/>
 </testsuite>

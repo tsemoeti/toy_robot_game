@@ -10,12 +10,23 @@ import za.co.MyRobot.toyrobot.world.*;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
 
+ The Robot class represents a robot that can move around in a world, and execute commands.
+
+ The robot has a name, status, position, and direction, and can move forward or backward
+
+ a given number of steps. The robot can also turn left or right, and its commands are
+
+ stored in a command history.
+ */
 public class Robot {
+    // Constants defining the world boundaries and center position
 
     private final Position TOP_LEFT = new Position(-100, 200);
     private final Position BOTTOM_RIGHT = new Position(100, -200);
     public static final Position CENTRE = new Position(0, 0);
+    // Properties of the robot
     private String status;
     private final String name;
     public static List<String> commandList = new ArrayList<>();
@@ -25,7 +36,11 @@ public class Robot {
     private Position position;
     private Direction currentDirection;
 
+    /**
 
+     Constructs a new Robot object with a given name.
+     @param name the name of the robot
+     */
     public Robot(String name) {
         this.name = name;
         this.currentDirection = Direction.NORTH;
@@ -36,10 +51,23 @@ public class Robot {
 
     }
 
+    /**
+
+     Returns a list of all commands executed by a given robot.
+     @param robot the robot whose command history to return
+     @return a list of all commands executed by the robot
+     */
+
     public static List<String> myHistory(Robot robot) {
         return commandList;
     }
 
+    /**
+
+     Constructs a new Robot object with a given name and world type.
+     @param name the name of the robot
+     @param world the type of world the robot will operate in ("text" or "turtle")
+     */
     public Robot(String name, String world) {
         this.name = name;
         this.currentDirection = Direction.NORTH;
@@ -49,19 +77,40 @@ public class Robot {
 
     }
 
+    /**
+
+     Returns the status of the robot.
+     @return the status of the robot
+     */
     public String getStatus() {
         return this.status;
     }
 
+    /**
 
+     Returns the current direction the robot is facing.
+     @return the current direction the robot is facing
+     */
     public Direction getCurrentDirection() {
         return this.currentDirection;
     }
 
+    /**
+
+     Executes a given command on the robot.
+     @param command the command to execute
+     @return true if the command was executed successfully, false otherwise
+     */
     public boolean handleCommand(Command command) {
         return command.execute(this);
     }
 
+    /**
+     Constructs a new Robot object with a given name, world type, and maze type.
+     @param name the name of the robot
+     @param world the type of world the robot will operate in ("text" or "turtle")
+     @param maze the type of maze the robot will navigate ("emptymaze", "simplemaze", "randommaze", or "designedmaze")
+     */
     public Robot(String name, String world, String maze) {
         this.name = name;
         this.currentDirection = Direction.NORTH;
@@ -84,6 +133,7 @@ public class Robot {
         this.abstractWorld = world.equalsIgnoreCase("text") ? new TextWorld(mazeChoice) : new TurtleWorld(mazeChoice);
 
     }
+
 
     public void updateDirection(boolean turnRight) {
         if (Direction.NORTH.equals(this.currentDirection) || Direction.UP.equals(this.currentDirection)) {

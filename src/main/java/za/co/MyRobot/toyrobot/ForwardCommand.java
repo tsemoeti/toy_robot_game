@@ -1,6 +1,10 @@
 package za.co.MyRobot.toyrobot;
 
 public class ForwardCommand extends Command {
+    /**
+     * Represents a command to move a robot forward a specified number of steps.
+     * Inherits from the Command class.
+     */
 
     @Override
     public boolean execute(Robot target) {
